@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: Asap,monospace;
+}
+
+body{
+    background-color: #6b5b95;
+}
+
+header{
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 14px;
+}
+
+header > div > img{
+    float: center;
+    margin: 2px auto;
+    width: 30px;
+}
+
+#btn > button{
+    float:right;
+    padding: 5px;
+    margin: 2px 4px;
+    background-color: #92a8d1;
+    border-radius: 5px;
+    border: 1px solid #92a8d1;
+}
+
+
+#show-result{
+    margin-top: 30px;
+    margin-left:35%;
+    border: 1px solid white;
+    width: 20%;
+    padding: 10px;
+    font-family: Asap;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 40px;
+}
+
+#printOutput{
+    padding: 20px;
+    margin-left: 30%;
+    font-size: 50px;
+}
+
+#user{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+#replay{
+    margin-left: 65%;
+}
+
+.replay{
+    font-size: 30px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+#logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rock{
+    border: 1px solid white;
+    width: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#paper{
+    border: 1px solid white;
+    width: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#scissor{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.pok{
+    font-family: Asap;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Computer-Print{
+    font-family: Asap;
+    font-size: 25px;
+}
